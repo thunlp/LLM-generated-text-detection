@@ -1,4 +1,4 @@
-# LLM-generated-text-detection
+# Beat LLMs at Their Own Game: Zero-Shot LLM-Generated Text Detection via Querying ChatGPT
 ## Data
 * For the Finance dataset, we use the ChatGPT-generated texts collected by Guo et al. [1]
 * The human-written texts and ChatGPT-generated texts of the Finance dataset are in the finance.jsonl file.
