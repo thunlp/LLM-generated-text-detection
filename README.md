@@ -4,6 +4,9 @@
 * The human-written texts and ChatGPT-generated texts of the Finance dataset are in the finance.jsonl file.
 * The ChatGPT-revised version for human-written texts of the Finance dataset are in the revised_human_finance.txt file.
 * The ChatGPT-revised version for ChatGPT-generated texts of the Finance dataset are in the revised_chatgpt_finance.txt file.
+* When we revise texts with ChatGPT, we use the
+gpt-3.5-turbo API provided by OpenAI. All experiments that call gpt-3.5-turbo API in
+the paper are done before June 2023, with the gpt-3.5-turbo API being gpt-3.5-turbo-0301.
 ## Code
 * To evaluate the detection performance of our method on the Finance dataset, please run the code "python finance_bart_auroc.py".
   
